@@ -1,0 +1,53 @@
+/* Center the Signin form */
+.sigin-container {
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    height: 100vh; /* Full screen height */
+    background-color: #f0f2f5; /* Light gray background */
+}
+
+/* Style the Signin form box */
+.sigin-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Input fields */
+.sigin-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.sigin-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sigin-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Link */
+.sigin-box a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sigin-box a:hover {
+    text-decoration: underline;
+}
